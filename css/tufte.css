@@ -8,7 +8,7 @@ body { width: 87.5%;
        margin-right: auto;
        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        // background-color: #fffff8;
-       background-image:url("../bg/vintage_speckles.png")
+       background-image: url("../bg/vintage_speckles.png");
        color: #111;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
