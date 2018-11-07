@@ -45,6 +45,12 @@ hr { display: block;
 .footer { left: 0;
           bottom: 0; }
 
+#borderimg1 { border-top: 10px solid transparent;
+              padding: 15px;
+              -webkit-border-image: url("../bg/jpn_wave.svg") 30 round; /* Safari 3.1-5 */
+              -o-border-image: url("../bg/jpn_wave.svg") 30 round; /* Opera 11-12.1 */
+              border-image: url("../bg/jpn_wave.svg") 30 round;  }
+
 p.subtitle { font-style: italic;
              margin-top: 1rem;
              margin-bottom: 1rem;
