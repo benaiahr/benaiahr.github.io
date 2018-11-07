@@ -8,9 +8,8 @@ body { width: 87.5%;
        margin-right: auto;
        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        // background-color: #fffff8;
-       //background-image: url("../bg/arches.png");
-       //background-image: url("../bg/lightpaperfibers.png");
-       background-image: url("../bg/jpn_wave.svg");
+       background-image: url("../bg/lightpaperfibers.png");
+       //background-image: url("../bg/jpn_wave.svg");
        color: #111;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
