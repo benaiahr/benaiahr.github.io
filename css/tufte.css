@@ -53,11 +53,12 @@ ul.topnav {
     line-height: 30px;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+       float: left;
+}
 
 ul.topnav li a {
     display: block;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -65,11 +66,19 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.home) {}
 
-ul.topnav li a.home {font-weight: 400; font-size: 2.2rem;}
+ul.topnav li a.home {
+       font-weight: 400; 
+       font-size: 2.2rem;
+}
 
-ul.topnav li a.not {vertical-align: text-bottom; padding: 21px 16px 0px 16px;}
+ul.topnav li a.not {
+       vertical-align: text-bottom; 
+       padding: 21px 16px 0px 16px;
+}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {
+       float: right;
+}
 
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
@@ -166,7 +175,7 @@ a:link { text-decoration: none;
          -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
          -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
          background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-         background-repeat: no-repeat, no-repeat, repeat-x;
+         background-repeat: no-repeat, no-repeat, no-repeat;
          text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
          background-position: 0% 93%, 100% 93%, 0% 93%; }
 
