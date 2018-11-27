@@ -45,7 +45,7 @@ hr { display: block;
 .footer { left: 0;
           bottom: 0; }
 
-div.navbaranimation a:before, div.topBotomBordersOut a:after
+div.navbaranimation li:before, div.navbaranimation li:after
 {
     position: absolute;
     left: 0px;
@@ -57,19 +57,19 @@ div.navbaranimation a:before, div.topBotomBordersOut a:after
     transition: all 0.3s;
 }
 
-div.navbaranimation a:before
+div.navbaranimation li:before
 {
     top: 0px;
     transform: translateY(10px);
 }
 
-div.navbaranimation a:after
+div.navbaranimation li:after
 {
     bottom: 0px;
     transform: translateY(-10px);
 }
 
-div.navbaranimation a:hover:before, div.navbaranimation a:hover:after
+div.navbaranimation li:hover:before, div.navbaranimation li:hover:after
 {
     opacity: 1;
     transform: translateY(0px);
