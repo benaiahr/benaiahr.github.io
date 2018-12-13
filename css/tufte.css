@@ -94,7 +94,7 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.home) {
+ul.topnav li a:not(.home) {
        vertical-align: text-bottom; 
        padding: 21px 16px 0px 16px;
 }
