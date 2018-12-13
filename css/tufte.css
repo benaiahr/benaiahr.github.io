@@ -95,7 +95,8 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover:not(.home) {
-       
+       vertical-align: text-bottom; 
+       padding: 21px 16px 0px 16px;
 }
 
 ul.topnav li a.home {
@@ -103,9 +104,10 @@ ul.topnav li a.home {
        font-size: 3rem;
 }
 
-ul.topnav li a.not {
+ul.topnav li a.active {
        vertical-align: text-bottom; 
        padding: 21px 16px 0px 16px;
+       text-decoration: underline;
 }
 
 ul.topnav li.right {
