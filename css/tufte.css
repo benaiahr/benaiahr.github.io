@@ -45,36 +45,6 @@ hr { display: block;
 .footer { left: 0;
           bottom: 0; }
 
-div.navbaranimation li:before, div.navbaranimation li:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #FFF;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-}
-
-div.navbaranimation li:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
-
-div.navbaranimation li:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-div.navbaranimation li:hover:before, div.navbaranimation li:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
-}
-
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -112,6 +82,39 @@ ul.topnav li a.active {
 
 ul.topnav li.right {
        float: right;
+}
+
+ul.topnav li a:hover {
+       float: right;
+}
+
+div.brackets a:before, div.brackets a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 0px;
+    transition: all 0.3s;
+}
+
+div.brackets a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div.brackets a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+div.brackets a:hover:before, div.brackets a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 @media screen and (max-width: 600px){
