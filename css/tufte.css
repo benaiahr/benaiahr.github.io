@@ -84,11 +84,7 @@ ul.topnav li.right {
        float: right;
 }
 
-ul.topnav li a:hover {
-       float: right;
-}
-
-div.brackets a:before, div.brackets a:after
+ul.topnav li a:before, ul.topnav li a:after
 {
     position: absolute;
     opacity: 0;
@@ -97,21 +93,21 @@ div.brackets a:before, div.brackets a:after
     transition: all 0.3s;
 }
 
-div.brackets a:before
+ul.topnav li a:before
 {
     content: '(';
     left: 0px;
     transform: translateX(10px);
 }
 
-div.brackets a:after
+ul.topnav li a:after
 {
     content: ')';
     right: 0px;
     transform: translateX(-10px);
 }
 
-div.brackets a:hover:before, div.brackets a:hover:after
+ul.topnav li a:hover:before, ul.topnav li a:hover:after
 {
     opacity: 1;
     transform: translateX(0px);
